@@ -173,6 +173,7 @@
       <div class="slides" id="slides">
         <div class="slide"><img src="./images/img1.jpg" style="height: 127%;"></div>
         <div class="slide"><img src="./images/img3.jpeg" style="height: 125%;"></div>
+        <div class="slide"><img src="./images/img5.jpg" style="height: 210%;"></div>
         <div class="slide"><img src="./images/img2.png" style="height: 137%;"></div>
         <div class="slide"><img src="./images/img4.jpg"></div>
       </div>
@@ -182,16 +183,16 @@
         <button class="dot" data-i="1"></button>
         <button class="dot" data-i="2"></button>
         <button class="dot" data-i="3"></button>
-        <!-- <button class="dot" data-i="4"></button>
-        <button class="dot" data-i="5"></button> -->
+        <button class="dot" data-i="4"></button>
+        <!-- <button class="dot" data-i="5"></button> -->
       </div>
     </div>
 
     <!-- PROFILE -->
     <div class="profile">
-      <img src="./images/logo2.PNG" width="88" height="88" style="border-radius:50%; margin-bottom:16px;">
+      <img src="./images/logo2.PNG" width="78" height="78" style="border-radius:50%; margin-bottom:16px;">
       <div>
-        <h1 class="name">Dr. Eugene Wallace, Jr.</h1>
+        <h1 class="name">Dr. Eugene Wallace Jr.</h1>
         <p class="tagline">Educator | Leadership Strategist | Acclaimed Author | Keynote Speaker</p>
       </div>
     </div>
@@ -214,7 +215,7 @@
     const track = document.getElementById('slides');
     const dots = document.querySelectorAll('.dot');
     let cur = 0;
-    const TOTAL = 4; // Update this if you add/remove slides
+    const TOTAL = 5; // Update this if you add/remove slides
 
     function goTo(n) {
       cur = (n + TOTAL) % TOTAL;
